@@ -242,7 +242,19 @@ sec_rag/
 
 ## Using a Custom Dataset
 
-The system works with **any collection of PDFs**, not just SEC filings. To point it at a different document set:
+The system works with **any collection of PDFs**, not just SEC filings — preferably financial documents with tables. There are two ways to add documents: via the Streamlit UI (easiest) or via the CLI (bulk ingestion).
+
+### Option A — Upload via Streamlit UI
+
+1. Open `http://localhost:8501` and go to the **📤 Ingest Data** tab.
+2. Use the file uploader to select one or more PDFs.
+3. Enter the **ticker** (e.g. `MYCO`) and **filing type** (e.g. `10-K`, `annual`, `report`) for the upload. If your filename already follows `{TICKER}_{FILING_TYPE}_{YYYYMMDD}.pdf`, these are auto-populated.
+4. Click **Ingest** — progress streams live in the UI. The file is saved to `sec_filings_pdf/<TICKER>/` and indexed immediately.
+5. Switch to the **💬 Ask** tab and query against the newly ingested document.
+
+> The UI uploader is best for one-off additions. For bulk ingestion of many files, use Option B.
+
+### Option B — CLI ingestion
 
 ### 1. Organise your PDFs
 
@@ -286,7 +298,7 @@ The pipeline parses each PDF, chunks it, generates table summaries, embeds with 
 
 The Ask tab in Streamlit works immediately after ingestion. For best results, include the ticker in your question so the query analyser applies metadata pre-filtering (e.g. "What was MYCO's revenue in 2025?").
 
-> **Note:** voyage-finance-2 is trained on financial documents and works well on any structured financial text. For non-financial domains, consider swapping the embedding model in `config.py` (`EMBEDDING_MODEL`) to a general-purpose embedder like `voyage-large-2`.
+> **Note:** voyage-finance-2 is optimised for financial documents with structured tables (income statements, balance sheets, footnotes). It works best on PDFs of this type. For non-financial domains, consider swapping the embedding model in `config.py` (`EMBEDDING_MODEL`) to a general-purpose embedder like `voyage-large-2`.
 
 ---
 
