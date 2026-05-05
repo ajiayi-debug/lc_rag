@@ -6,6 +6,8 @@ Agentic RAG system for answering investor questions over SEC filings (10-K, 10-Q
 
 **[Full Technical Report](https://docs.google.com/document/d/1YfCLOSIR7DLpoXwhxcJDd2a6m02rfKyCProjFm9S4XQ/edit?usp=sharing)** — system design, evaluation results, and experiment analysis.
 
+**[Video Demo](https://drive.google.com/file/d/1fbC7fvsNQI24RuyIylwgUEBqGvARkhZ0/view?usp=sharing)** — walkthrough of the system in action.
+
 ---
 
 ## Prerequisites
