@@ -1,0 +1,39 @@
+{
+  "experiment": "exp03_hyde_retrieval",
+  "questions": 24,
+  "errors": 0,
+  "retrieval": {
+    "precision_k": 0.478,
+    "recall_k": 0.686,
+    "f1_k": 0.493
+  },
+  "generation": {
+    "faithfulness": 0.729,
+    "accuracy": 0.717,
+    "llm_only_accuracy": 0.192,
+    "rag_improvement": 0.525
+  },
+  "per_category": {
+    "easy": {
+      "precision_k": 0.347,
+      "recall_k": 0.842,
+      "f1_k": 0.445,
+      "faithfulness": 0.912,
+      "accuracy": 0.75
+    },
+    "medium": {
+      "precision_k": 0.632,
+      "recall_k": 0.667,
+      "f1_k": 0.58,
+      "faithfulness": 0.929,
+      "accuracy": 0.786
+    },
+    "hard": {
+      "precision_k": 0.476,
+      "recall_k": 0.562,
+      "f1_k": 0.468,
+      "faithfulness": 0.411,
+      "accuracy": 0.633
+    }
+  }
+}

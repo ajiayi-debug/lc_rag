@@ -1,0 +1,39 @@
+{
+  "experiment": "exp02_cohere_reranker",
+  "questions": 24,
+  "errors": 0,
+  "retrieval": {
+    "precision_k": 0.469,
+    "recall_k": 0.72,
+    "f1_k": 0.543
+  },
+  "generation": {
+    "faithfulness": 0.717,
+    "accuracy": 0.754,
+    "llm_only_accuracy": 0.158,
+    "rag_improvement": 0.596
+  },
+  "per_category": {
+    "easy": {
+      "precision_k": 0.383,
+      "recall_k": 0.786,
+      "f1_k": 0.495,
+      "faithfulness": 0.888,
+      "accuracy": 0.875
+    },
+    "medium": {
+      "precision_k": 0.6,
+      "recall_k": 0.745,
+      "f1_k": 0.629,
+      "faithfulness": 0.971,
+      "accuracy": 0.671
+    },
+    "hard": {
+      "precision_k": 0.443,
+      "recall_k": 0.642,
+      "f1_k": 0.519,
+      "faithfulness": 0.367,
+      "accuracy": 0.711
+    }
+  }
+}

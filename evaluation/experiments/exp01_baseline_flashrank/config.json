@@ -1,0 +1,19 @@
+{
+  "experiment": "exp01_baseline_flashrank",
+  "date": "2026-05-05 13:58",
+  "git_hash": "66e242d",
+  "name": "exp01_baseline_flashrank",
+  "notes": "",
+  "category_filter": null,
+  "retrieval": {
+    "embedding_model": "voyage-finance-2",
+    "reranker": "flashrank rank-T5-flan (local)",
+    "hyde": false,
+    "TOP_K_RETRIEVAL": 20,
+    "TOP_K_RERANK": 6,
+    "MAX_CHUNKS_TOTAL": 12
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "experiment": "exp03_hyde_retrieval",
+  "date": "2026-05-05 14:32",
+  "git_hash": "66e242d",
+  "name": "exp03_hyde_retrieval",
+  "notes": "",
+  "category_filter": null,
+  "retrieval": {
+    "embedding_model": "voyage-finance-2",
+    "reranker": "Cohere rerank-english-v3.0",
+    "hyde": true,
+    "TOP_K_RETRIEVAL": 30,
+    "TOP_K_RERANK": 6,
+    "MAX_CHUNKS_TOTAL": 12
+  },
+  "generation": {
+    "model": "claude-haiku-4-5-20251001"
+  }
+}

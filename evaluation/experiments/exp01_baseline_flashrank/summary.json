@@ -1,0 +1,39 @@
+{
+  "experiment": "exp01_baseline_flashrank",
+  "questions": 24,
+  "errors": 0,
+  "retrieval": {
+    "precision_k": 0.226,
+    "recall_k": 0.366,
+    "f1_k": 0.265
+  },
+  "generation": {
+    "faithfulness": 0.458,
+    "accuracy": 0.725,
+    "llm_only_accuracy": 0.146,
+    "rag_improvement": 0.579
+  },
+  "per_category": {
+    "easy": {
+      "precision_k": 0.138,
+      "recall_k": 0.312,
+      "f1_k": 0.187,
+      "faithfulness": 0.538,
+      "accuracy": 0.838
+    },
+    "medium": {
+      "precision_k": 0.298,
+      "recall_k": 0.445,
+      "f1_k": 0.332,
+      "faithfulness": 0.6,
+      "accuracy": 0.786
+    },
+    "hard": {
+      "precision_k": 0.248,
+      "recall_k": 0.353,
+      "f1_k": 0.282,
+      "faithfulness": 0.278,
+      "accuracy": 0.578
+    }
+  }
+}
