@@ -1,0 +1,297 @@
+GROUND TRUTH MANUAL VERIFICATION CHECKLIST
+============================================================
+For each question: open the PDF, search for the key figures, tick off if correct.
+
+[E01] [VERIFIED] What was Microsoft's total revenue in FY2024?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MSFT/MSFT_10-K_20250730.pdf
+  Search for: ['$245,122 million', '$245.1 billion', '$211,915 million', '$281,724 million']
+  Ground truth:
+    Microsoft's total revenue in FY2024 (fiscal year ended June 30, 2024) was $245,122 million
+     ($245.1 billion), as reported in the FY2025 10-K as a comparative year. This was up from
+    $211,915 million in FY2023 and grew to $281,724 million in FY2025. Note: $247,442 million
+    is the pro forma revenue as if Activision Blizzard had been acquired on July 1, 2022 — not
+     actual revenue.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p62 (PDF scan 2026-05-03)
+
+[E02] [VERIFIED] What is Tesla's total long-term debt as reported in their latest 10-K?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/TSLA/TSLA_10-K_20260129.pdf
+  Search for: ['$5,535 million', '$3 million', '$5,532 million', '$222 million']
+  Ground truth:
+    Based on Tesla's latest 10-K filing for the fiscal year ended December 31, 2025, Tesla's t
+    otal long-term debt (net of current portion) is $5,535 million, consisting of $3 million i
+    n recourse debt and $5,532 million in non-recourse debt. When including finance leases wit
+    h a long-term net carrying value of $222 million, the total long-term debt and finance lea
+    ses equals $5,757 million.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p84/p124 (PDF scan 2026-05-03)
+
+[E03] [VERIFIED] What was NVIDIA's net income in their most recent fiscal year?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/NVDA/NVDA_10-K_20260225.pdf
+  Search for: ['$120,067 million', '$215,938 million', '$193,479', '$22,459']
+  Ground truth:
+    NVIDIA's net income for the fiscal year ended January 25, 2026 (FY2026) was approximately
+    $120,067 million, representing 55.6% of total revenue. Total revenue was $215,938 million
+    (Compute & Networking: $193,479M, Graphics: $22,459M), up 65% year-over-year from $130,497
+    M. Operating income was $139,297 million (60.4% of revenue).
+  [x] CORRECT   [ ] WRONG   Notes: Verified p67 (PDF scan 2026-05-03)
+
+[E04] What was Apple's gross margin percentage in their latest 10-K?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AAPL/AAPL_10-K_20251031.pdf
+  Search for: ['46.9%', '36.8%', '75.4%']
+  Ground truth:
+    Apple's total gross margin percentage was 46.9% in fiscal year 2025 (ending September 2025
+    ), as reported in their 10-K filed October 31, 2025. Products gross margin was 36.8% and S
+    ervices gross margin was 75.4%, reflecting the higher-margin Services segment pulling over
+    all margins upward.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p36 (PDF scan 2026-05-03)
+
+[E05] What are the main business segments of Amazon?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AMZN/AMZN_10-K_20260206.pdf
+  Search for: ['$426.3', '$161.9', '$128.7']
+  Ground truth:
+    Amazon reports three business segments in its latest 10-K (fiscal year 2025, filed Februar
+    y 6, 2026): North America (retail, advertising, and subscriptions through North America-fo
+    cused stores), International (similar services through internationally-focused stores), an
+    d Amazon Web Services (AWS, on-demand cloud computing platforms and services). North Ameri
+    ca contributed $426.3B, International $1...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p43/p107 (PDF scan 2026-05-03)
+
+[E06] What was JPMorgan's total assets as of their latest annual report?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/JPM/JPM_10-K_20260213.pdf
+  Search for: ['$2,142,534 million', '$2.14', '$1.77', '21%']
+  Ground truth:
+    JPMorgan Chase's total assets as of December 31, 2025 were $2,142,534 million (approximate
+    ly $2.14 trillion), representing a 21% year-over-year increase from $1.77 trillion in 2024
+    , as reported in their 10-K filed February 13, 2026. Note: this figure reflects total asse
+    ts per the Selected Metrics summary; the consolidated balance sheet total may differ.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p139/p146 (PDF scan 2026-05-03)
+
+[E07] What was Meta's advertising revenue in their most recent 10-K?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/META/META_10-K_20260129.pdf
+  Search for: ['$196.175 billion', '$35.54 billion', '22%']
+  Ground truth:
+    Meta's advertising revenue in 2025 was $196.175 billion, representing an increase of $35.5
+    4 billion, or 22%, compared to 2024, according to their 10-K filing dated January 29, 2026
+    .
+  [x] CORRECT   [ ] WRONG   Notes: Verified p108/p127 (PDF scan 2026-05-03)
+
+[E10] What was Berkshire Hathaway's operating earnings in their most recent annual report?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/BRK-B/BRK-B_10-K_20260302.pdf
+  Search for: ['$51,714 million', '$42,873 million', '$53,936 million', '51,714']
+  Ground truth:
+    Based on the SEC filing dated 2026-03-02, Berkshire Hathaway reported total operating busi
+    nesses earnings before income taxes of $51,714 million in 2025. Combined operating earning
+    s before investment gains totaled $42,873 million, which represented a decline from 2024 o
+    perating earnings before income taxes of $53,936 million, primarily driven by lower earnin
+    gs from insurance underwriting operation...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p182 (PDF scan 2026-05-03)
+
+[M01] Break down Amazon's revenue by segment for the last reported fiscal year.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AMZN/AMZN_10-K_20260206.pdf
+  Search for: ['$426,305 million', '$161,894 million', '$128,725 million', '$716,924 million']
+  Ground truth:
+    Based on Amazon's 10-K filing for fiscal year 2025 (ended December 31, 2025), the company'
+    s revenue breakdown by segment is: North America generated $426,305 million (59% of total)
+    , International generated $161,894 million (23% of total), and AWS generated $128,725 mill
+    ion (18% of total), for consolidated net sales of $716,924 million. North America showed 1
+    0% year-over-year growth, International ...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p43 (PDF scan 2026-05-03)
+
+[M02] How has Apple's gross margin trended over the past 3 fiscal years?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AAPL/AAPL_10-K_20251031.pdf
+  Search for: ['$169.1 billion', '$195.2 billion', '44.1%', '46.9%']
+  Ground truth:
+    Based on the provided SEC filing data, Apple's total gross margin improved consistently ov
+    er the three-year period from FY 2023 to FY 2025, increasing from 44.1% to 46.9% (280 basi
+    s points), with absolute gross profit growing from $169.1 billion to $195.2 billion. Servi
+    ces gross margin showed particularly strong expansion, growing 460 basis points from 70.8%
+     in FY 2023 to 75.4% in FY 2025, while P...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p36 (PDF scan 2026-05-03)
+
+[M03] What was Alphabet's revenue split between Google Search, YouTube, and Google Cloud in their latest annual report?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/GOOG/GOOG_10-K_20260205.pdf
+  Search for: ['$224.532 billion', '$40.367 billion', '$58.705 billion', '$323.604 billion']
+  Ground truth:
+    Based on Alphabet's 2025 annual report (10-K filed February 5, 2026), Google Search & othe
+    r generated $224.532 billion in revenue, YouTube ads generated $40.367 billion, and Google
+     Cloud generated $58.705 billion. Together, these three segments accounted for $323.604 bi
+    llion of Alphabet's total revenues of $402.836 billion in 2025, representing approximately
+     80% of total company revenue.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p58/p60 (PDF scan 2026-05-03)
+
+[M05] How has NVIDIA's data center revenue grown over the past two years?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/NVDA/NVDA_10-K_20260225.pdf
+  Search for: ['$131.423 billion', '$79.606 billion', '$51.2 billion', '65%']
+  Ground truth:
+    Based on NVIDIA's SEC filings, Data Center revenue grew 65% year-over-year for the nine-mo
+    nth period ended October 26, 2025, reaching $131.423 billion compared to $79.606 billion i
+    n the prior year period. In the most recent third quarter alone, Data Center revenue was $
+    51.2 billion, representing 66% year-over-year growth. For the full fiscal year 2026, Data
+    Center revenue was up 68% from the prior...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p67 (PDF scan 2026-05-03)
+
+[M07] What is Goldman Sachs's CET1 capital ratio and how does it compare to their target?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/GS/GS_10-K_20260225.pdf
+  Search for: ['15.6%', '20.9%', '4.5%', '13.6%']
+  Ground truth:
+    As of December 2025, Goldman Sachs's CET1 capital ratio was 15.6% under the Standardized a
+    pproach and 20.9% under the Advanced approach. These ratios significantly exceed the regul
+    atory minimum CET1 requirement of 4.5% and the total CET1 requirement (including buffers)
+    of 13.6% as of September 2025. The filings do not disclose an internal target CET1 capital
+     ratio.
+  [x] CORRECT   [ ] WRONG   Notes: Verified p174/p232 (PDF scan 2026-05-03)
+
+[M08] What were the main drivers of Eli Lilly's revenue growth in their latest annual report?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/LLY/LLY_10-K_20260212.pdf
+  Search for: ['$22,965 million', '$11,540 million', '$13,542 million', '$4,926 million']
+  Ground truth:
+    Eli Lilly's revenue growth was primarily driven by tirzepatide-based products: Mounjaro ge
+    nerated $22,965 million in 2025 (99% increase from $11,540 million in 2024) and Zepbound a
+    chieved $13,542 million (175% increase from $4,926 million in 2024). These two products co
+    mbined accounted for $36,507 million in 2025 revenue, with the company's overall revenue g
+    rowing 45% from $45,043 million in 2024 ...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p76 (PDF scan 2026-05-03)
+
+[M10] What were the reported impairments or write-downs disclosed by Intel in their latest filings?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/INTC/INTC_10-K_20260123.pdf
+  Search for: ['$950 million', '$460 million', '$3.3 billion', '$2.3 billion']
+  Ground truth:
+    Intel reported $950 million in asset impairments and accelerated depreciation charges in 2
+    025 related to manufacturing assets with no remaining operational use, plus $460 million i
+    n non-cash charges for property and equipment not yet in service. In 2024, Intel recognize
+    d $3.3 billion in impairments and accelerated depreciation charges primarily related to In
+    tel 7 process node manufacturing assets,...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p32/p34 (PDF scan 2026-05-03)
+
+[H01] Compare the R&D spending as a percentage of revenue between Google and Microsoft in their latest filings.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/GOOG/GOOG_10-K_20260205.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MSFT/MSFT_10-K_20250730.pdf
+  Search for: ['$61,087 million', '$32,488 million', '$281,724 million', '15%']
+  Ground truth:
+    Based on the latest SEC filings, Google invests a higher percentage of revenue in R&D comp
+    ared to Microsoft. Google's R&D expenses were $61,087 million, representing 15% of revenue
+    s in 2025, while Microsoft's R&D expenses were $32,488 million out of $281,724 million in
+    total revenue, representing approximately 11.5% of revenues in fiscal year 2025. This repr
+    esents a difference of approximately 3.5...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p40/p64 (PDF scan 2026-05-03)
+
+[H02] Summarize how semiconductor companies are discussing AI-related demand in their latest earnings reports.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/NVDA/NVDA_10-K_20260225.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AMD/AMD_10-K_20260204.pdf
+  Search for: ['36%']
+  Ground truth:
+    Based on the SEC filings, semiconductor companies report strong current AI-driven demand,
+    with AMD experiencing a 36% year-over-year revenue increase in Q3 2025 driven by AI accele
+    rators and processors, while Micron states that AI-driven memory and storage growth is out
+    pacing industry supply. However, companies consistently emphasize significant uncertainty
+    about long-term AI demand trajectories a...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p131 (PDF scan 2026-05-03)
+
+[H03] How are companies in the financial sector discussing AI adoption in their latest filings?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/JPM/JPM_10-K_20260213.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/GS/GS_10-K_20260225.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AXP/AXP_10-K_20260206.pdf
+  Search for: ['competitive disadvantage', 'AI agents autonomously', 'generative artificial intelligence', 'biased', 'regulatory']
+  Ground truth:
+    JPMorgan (p82): competitive disadvantage if competitors deploy AI faster; AI agent disintermediation risk.
+    Goldman Sachs (p109/p134): AI risks section — biased outputs, regulatory uncertainty, AI fraud by bad actors,
+    competitors gaining productivity advantages.
+    AXP (p8): deploying generative AI for agentic commerce (strategic use, not just risk).
+    No institution discloses specific AI investment amounts.
+  [x] CORRECT   [ ] WRONG   Notes: Verified JPM p82, GS p109/p134, AXP p8 (PDF scan 2026-05-05)
+
+[H04] Among Nvidia, Microsoft, Apple, Google, Tesla, and Walmart — which shows the strongest financial health based on their latest filings?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/NVDA/NVDA_10-K_20260225.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MSFT/MSFT_10-K_20250730.pdf
+  Search for: ['$128.5 billion', '$94.6 billion', '$43.2 billion', '$62.6 billion']
+  Ground truth:
+    Based on the SEC filings presented, **Microsoft and NVIDIA demonstrate the strongest finan
+    cial health**. Microsoft generated $128.5 billion in operating income for fiscal year 2025
+     with $94.6 billion in liquidity and only $43.2 billion in debt, while NVIDIA maintains $6
+    2.6 billion in cash with just $8.5 billion in long-term debt and $42.8 billion in operatin
+    g cash flow. Both companies combine subs...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p76/p77 (PDF scan 2026-05-03)
+
+[H05] Compare cloud segment revenue growth rates: Amazon AWS, Microsoft Intelligent Cloud, and Google Cloud over the last reported year.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AMZN/AMZN_10-K_20260206.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MSFT/MSFT_10-K_20250730.pdf
+  Search for: ['$128.7 billion', '$107.6', '$87', '$58.7 billion']
+  Ground truth:
+    For the most recently reported fiscal year, Amazon AWS grew 20% year-over-year to $128.7 b
+    illion (FY2025 vs. $107.6B in FY2024), per AMZN's 10-K filed February 6, 2026. Microsoft's
+     Intelligent Cloud segment (which includes Azure, server products, and enterprise services
+    ) grew approximately 19-21% to roughly $87-88 billion in FY2025, per MSFT's 10-K filed Jul
+    y 30, 2025. Google Cloud grew 29% to $58...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p49 (PDF scan 2026-05-03)
+
+[H06] What are the most significant legal or regulatory risks disclosed across the big tech companies in their latest 10-K filings?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/AAPL/AAPL_10-K_20251031.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MSFT/MSFT_10-K_20250730.pdf
+  Search for: ['$1.4 billion', '$5.7 billion']
+  Ground truth:
+    # Major Legal and Regulatory Risks Across Big Tech Companies
+
+The most significant legal a
+    nd regulatory risks disclosed in big tech companies' latest 10-K filings include antitrust
+     enforcement actions (such as the EC's €3.0 billion fine against Google for self-preferenc
+    ing and €798 million fine against Meta for abuse of dominance), substantial data privacy o
+    bligations under GDPR and similar regula...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p49/p63 (PDF scan 2026-05-03)
+
+[H07] Compare operating margins between Visa and Mastercard over the last two fiscal years.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/V/V_10-K_20251106.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/MA/MA_10-K_20260211.pdf
+  Search for: ['65.7%', '60%', '30%', '55.3%']
+  Ground truth:
+    Visa's operating margin declined from 65.7% in fiscal 2024 to approximately 60% in fiscal
+    2025, a decrease of 5.7 percentage points driven by a 30% increase in operating expenses.
+    Mastercard's operating margin improved from 55.3% in 2024 to 57.6% in 2025, a gain of 2.3
+    percentage points despite a 10% increase in operating expenses. Visa maintained a higher a
+    bsolute operating margin at approximatel...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p24/p70 (PDF scan 2026-05-03)
+
+[H08] How are energy companies XOM and CVX discussing the energy transition and capital allocation in their latest annual reports?
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/XOM/XOM_10-K_20260218.pdf
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/CVX/CVX_10-K_20260224.pdf
+  Search for: ['30%']
+  Ground truth:
+    ExxonMobil (XOM) has committed to achieving net-zero Scope 1 and 2 emissions in its integr
+    ated Permian Basin operated assets by 2035 and plans a 20-30% reduction in corporate-wide
+    greenhouse gas intensity by 2030 compared to 2016 levels, with a dedicated Low Carbon Solu
+    tions business segment investing in carbon capture and storage, hydrogen, ammonia, and lit
+    hium. Chevron (CVX) takes a more cautiou...
+  [x] CORRECT   [ ] WRONG   Notes: XOM p71 (Permian net-zero 2035, 20-30% GHG intensity), CVX p40 ("not on track by 2050") (PDF scan 2026-05-03)
+
+[H10] Give me an overview of recent performance of Palantir, including revenue growth, margins, and key business developments.
+  PDF(s) to open:
+    /Users/angjiayi/code/lc_rag/sec_filings_pdf/PLTR/PLTR_10-K_20260217.pdf
+  Search for: ['$4,475,446', '$2,865,507', '$3,686,269', '56%']
+  Ground truth:
+    Palantir demonstrated strong financial performance in 2025 with revenue of $4,475,446 thou
+    sand, representing 56% year-over-year growth from 2024 revenue of $2,865,507 thousand. The
+     company expanded its gross margin to 82% in 2025 from 80% in 2024, with gross profit incr
+    easing 60% to $3,686,269 thousand. Palantir's business is structured around three main rev
+    enue streams: Palantir Cloud (subscripti...
+  [x] CORRECT   [ ] WRONG   Notes: Verified p95 (PDF scan 2026-05-03)

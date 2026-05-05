@@ -1,0 +1,38 @@
+# Git
+.git
+.gitignore
+
+# macOS
+.DS_Store
+
+# Python cache
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info
+dist/
+build/
+
+# Virtual envs (uv creates .venv locally — never bake into image)
+.venv
+venv
+env
+
+# Generated data — these are mounted as volumes at runtime, not baked in
+qdrant_storage/
+bm25_index.pkl
+evaluation/results.csv
+
+# Large source files — PDFs are mounted at runtime
+*.zip
+*.pdf
+
+# Secrets (never bake into image — pass via env_file or --env-file)
+.env
+
+# IDE
+.idea
+.vscode
+*.swp

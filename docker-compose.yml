@@ -1,0 +1,17 @@
+services:
+  sec-rag:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: sec-rag:latest
+    container_name: sec_rag
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./qdrant_storage:/app/qdrant_storage
+      - ./bm25_index.pkl:/app/bm25_index.pkl
+      - ./sec_filings_pdf:/app/sec_filings_pdf
+      - ./evaluation:/app/evaluation
+      - ./.env:/app/.env
+    env_file: .env
+    restart: unless-stopped

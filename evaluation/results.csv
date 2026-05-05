@@ -1,0 +1,981 @@
+id,category,query,rag_answer,precision_k,recall_k,f1_k,chunks_retrieved,chunks_relevant,faithfulness,accuracy,llm_only_answer,llm_only_accuracy
+E01,easy,What was Microsoft's total revenue in FY2024?,"Microsoft's total revenue in FY2024 was $245,122 million [MSFT, 10-K, 2025-07-30, Page 1].",0.429,0.6,0.5,7,3,1.0,0.9,"# Microsoft's FY2024 Total Revenue
+
+Microsoft's total revenue for fiscal year 2024 (ended June 30, 2024) was **$245.1 billion**.
+
+This represented significant growth compared to FY2023, driven by strong performance across their cloud computing, productivity software, and gaming segments, particularly benefiting from increased demand for AI-related services and infrastructure.",0.9
+E02,easy,What is Tesla's total long-term debt as reported in their latest 10-K?,"Based on Tesla's 10-K filing dated January 29, 2026, Tesla's total long-term debt is **$6,584 million** [TSLA, 10-K, 2026-01-29, Page 1].
+
+This figure represents the net carrying value of long-term debt and consists of:
+- Recourse debt (long-term): $2 million
+- Non-recourse debt (long-term): $6,582 million
+
+If you include finance leases, the total long-term debt and finance leases would be **$6,736 million** [TSLA, 10-K, 2026-01-29, Page 1].",0.429,1.0,0.6,7,3,1.0,0.2,"I don't have access to real-time data or the ability to browse current SEC filings. My knowledge was last updated in April 2024, so I cannot provide Tesla's most recent 10-K filing information with certainty.
+
+To find Tesla's current long-term debt, I recommend:
+
+1. **SEC EDGAR Database** - Visit www.sec.gov/edgar and search for Tesla Inc. (ticker: TSLA)
+2. **Tesla's Investor Relations** - Go to investor.tesla.com for official filings
+3. **Financial Data Providers** - Check Yahoo Finance, Google Finance, or Bloomberg
+
+When you locate the 10-K, look for long-term debt in the **Balance Sheet** section under ""Liabilities and Stockholders' Equity,"" typically listed as ""Long-term debt"" or ""Long-term borrowings.""
+
+If you have access to a specific 10-K filing and would like me to help interpret the financial statements, feel free to share the relevant details and I'd be happy to analyze them.",0.0
+E03,easy,What was NVIDIA's net income in their most recent fiscal year?,"NVIDIA's net income in their most recent fiscal year (ended January 25, 2026) was $120,067 million. [NVDA, 10-K, 2026-02-25, Page 1]",0.667,0.8,0.727,6,4,1.0,0.9,"I don't have access to real-time data or the ability to browse current SEC filings. My knowledge was last updated in April 2024, so I cannot provide NVIDIA's most recent fiscal year net income with certainty.
+
+However, I can tell you that:
+- NVIDIA's fiscal year ends in January
+- For fiscal year 2024 (ending January 28, 2024), NVIDIA reported net income of approximately **$60.9 billion**
+
+For the most current and accurate information, I recommend:
+1. Visiting NVIDIA's investor relations website (investor.nvidia.com)
+2. Checking the SEC's EDGAR database (sec.gov)
+3. Reviewing their most recent 10-K filing
+
+If you need information about a specific fiscal period, please let me know and I can try to help with what's within my knowledge base.",0.2
+E04,easy,What was Apple's gross margin percentage in their latest 10-K?,"Apple's total gross margin percentage in their latest 10-K was **46.9%** for fiscal year 2025 [AAPL, 10-K, 2025-10-31, Page 1].
+
+This breaks down as:
+- Products gross margin percentage: **36.8%** [AAPL, 10-K, 2025-10-31, Page 1]
+- Services gross margin percentage: **75.4%** [AAPL, 10-K, 2025-10-31, Page 1]",0.167,1.0,0.286,6,1,1.0,1.0,"I don't have access to real-time data or the ability to retrieve specific current SEC filings. My training data has a knowledge cutoff date, and I cannot browse the internet or access live databases.
+
+To find Apple's latest gross margin percentage, I recommend:
+
+1. **Visit Apple's Investor Relations website** (investor.apple.com) and download their latest 10-K filing
+2. **Use the SEC's EDGAR database** (sec.gov/cgi-bin) and search for Apple Inc.
+3. **Check financial data websites** like Yahoo Finance, Google Finance, or MarketWatch, which typically display gross margin metrics
+
+In Apple's 10-K, you'll typically find the gross margin percentage in:
+- The Consolidated Statements of Operations (showing Gross Margin)
+- Management's Discussion & Analysis (MD&A) section
+- Financial highlights or summary tables
+
+If you have a specific 10-K filing available and would like help interpreting the gross margin figure or other financial metrics, I'd be happy to assist with that analysis.",0.0
+E05,easy,What are the main business segments of Amazon?,"According to Amazon's 10-K filing, the company has organized its operations into three main business segments [AMZN, 10-K, 2026-02-06, Page 1]:
+
+1. **North America** - This segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through North America-focused online and physical stores. It also includes export sales from these online stores [AMZN, 10-K, 2026-02-06, Page 1].
+
+2. **International** - This segment primarily consists of amounts earned from retail sales of consumer products (including from sellers) and advertising and subscription services through internationally-focused online stores. It includes export sales from internationally-focused online stores to customers in various regions, but excludes export sales from North America-focused online stores [AMZN, 10-K, 2026-02-06, Page 1].
+
+3. **AWS (Amazon Web Services)** - This segment consists of amounts earned from global sales of compute, storage, database, and other services for startups, enterprises, government agencies, and academic institutions [AMZN, 10-K, 2026-02-06, Page 1].
+
+These three segments reflect the way the company evaluates its business performance and manages its operations [AMZN, 10-K, 2026-02-06, Page 1].",0.333,0.333,0.333,6,2,0.3,1.0,"# Amazon's Main Business Segments
+
+Based on Amazon's SEC filings, the company operates three primary reportable segments:
+
+## 1. **Amazon Web Services (AWS)**
+- Cloud computing and infrastructure services
+- Includes EC2, S3, database services, analytics, machine learning, and developer tools
+- Historically the highest-margin segment
+
+## 2. **Online Stores**
+- E-commerce retail operations
+- North America retail (US, Canada, Mexico)
+- International retail (Europe, Asia-Pacific, and other regions)
+- Third-party seller services and marketplace fees
+
+## 3. **Physical Stores**
+- Whole Foods Market (acquired 2017)
+- Amazon Go convenience stores
+- Amazon Books stores
+- Amazon 4-star stores
+
+## Additional Revenue Sources
+
+Beyond the three reportable segments, Amazon also generates significant revenue from:
+- **Advertising Services** (rapidly growing segment)
+- **Subscription services** (Prime membership)
+- **Other** (entertainment content, music, etc.)
+
+AWS has historically been Amazon's most profitable segment despite being a smaller percentage of total revenue, while Online Stores represents the largest portion of revenue. The company has been increasingly emphasizing advertising and cloud services as higher-margin growth drivers.
+
+Would you like more specific financial details about any of these segments?",0.3
+E06,easy,What was JPMorgan's total assets as of their latest annual report?,"According to JPMorgan Chase & Co.'s latest 10-K filing, total assets as of December 31, 2025 were **$4,424,900 million** (or approximately **$4.42 trillion**) [JPM, 10-K, 2026-02-13, Page 1].
+
+This represents an increase of 11% from total assets of $4,002,814 million as of December 31, 2024.",0.125,1.0,0.222,8,1,1.0,0.1,"I don't have access to real-time data or the ability to browse current SEC filings. My knowledge was last updated in April 2024, so I cannot tell you JPMorgan's total assets from their most recent annual report without knowing the current date.
+
+However, I can tell you that as of December 31, 2023, JPMorgan Chase reported **total assets of approximately $3.74 trillion** in their 2023 10-K filing.
+
+For the most current figures, I'd recommend:
+1. Visiting JPMorgan Chase's investor relations website
+2. Checking the SEC's EDGAR database (sec.gov)
+3. Looking at their latest 10-K or 10-Q filing
+
+If you're looking at a specific date or filing year, feel free to let me know and I can try to help with historical information.",0.2
+E07,easy,What was Meta's advertising revenue in their most recent 10-K?,"Meta's advertising revenue in their most recent 10-K was $196,175 million in 2025 [META, 10-K, 2026-01-29, Page 1].",0.5,1.0,0.667,6,3,1.0,1.0,"I don't have access to real-time data or the ability to retrieve current SEC filings. My knowledge was last updated in April 2024, and I cannot browse the internet to access Meta's most recent 10-K filing.
+
+To find Meta's most recent advertising revenue, I recommend:
+
+1. **SEC EDGAR Database** (sec.gov/edgar) - Search for Meta Platforms, Inc. and locate the most recent 10-K filing
+2. **Meta's Investor Relations website** (investor.fb.com) - They provide SEC filings and earnings reports
+3. **Financial data services** like Bloomberg, Yahoo Finance, or Google Finance
+
+If you have access to a specific 10-K filing and would like me to help analyze the advertising revenue figures or other financial metrics from that document, I'd be happy to help if you share those details.",0.0
+E10,easy,What was Berkshire Hathaway's operating earnings in their most recent annual report?,"# Berkshire Hathaway Operating Earnings (2025)
+
+Based on the most recent 10-K filing, Berkshire Hathaway's key earnings metrics for 2025 are:
+
+**Earnings before income taxes:** $82,459 million [BRK-B, 10-K, 2026-03-02, Page 1]
+
+**Net earnings attributable to Berkshire shareholders:** $66,968 million [BRK-B, 10-K, 2026-03-02, Page 1]
+
+The difference between these figures reflects income tax expense of $15,199 million and equity method losses of $9,590 million [BRK-B, 10-K, 2026-03-02, Page 1].
+
+Additionally, if you're looking at operating business earnings specifically (excluding investment gains/losses), **total operating businesses earned $51,714 million before income taxes** in 2025 [BRK-B, 10-K, 2026-03-02, Page 1].",0.125,1.0,0.222,8,1,1.0,0.9,"I don't have access to real-time data or the ability to retrieve current SEC filings. My knowledge was last updated in April 2024, so I cannot tell you about Berkshire Hathaway's most recent annual report with certainty.
+
+To find Berkshire Hathaway's operating earnings from their most recent annual report, I recommend:
+
+1. **SEC EDGAR Database**: Visit edgar.sec.gov and search for Berkshire Hathaway Inc. (ticker: BRK)
+2. **Berkshire's Investor Relations**: Check berkshirehathaway.com/investors.html
+3. **Form 10-K**: Look for their annual report (Form 10-K), which contains detailed operating earnings information
+
+When you locate the 10-K, operating earnings are typically found in the Management's Discussion and Analysis (MD&A) section and the financial statements.
+
+If you have a specific year's filing you'd like me to help analyze, please share the figures or document, and I'd be happy to help interpret them.",0.0
+M01,medium,Break down Amazon's revenue by segment for the last reported fiscal year.,"# Amazon's Revenue by Segment (Fiscal Year 2025)
+
+Based on Amazon's 10-K filing for the fiscal year ended December 31, 2025, here is the revenue breakdown by segment:
+
+## By Product/Service Category:
+
+- **Online stores:** $269,287 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **Physical stores:** $22,561 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **Third-party seller services:** $172,162 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **Advertising services:** $68,635 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **Subscription services:** $49,619 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **AWS:** $128,725 million [AMZN, 10-K, 2026-02-06, Page 1]
+- **Other:** $5,935 million [AMZN, 10-K, 2026-02-06, Page 1]
+
+**Consolidated Net Sales:** $716,924 million [AMZN, 10-K, 2026-02-06, Page 1]
+
+## By Geographic Segment:
+
+- **North America:** $426,305 million (59% of consolidated sales) [AMZN, 10-K, 2026-02-06, Page 1]
+- **International:** $161,894 million (23% of consolidated sales) [AMZN, 10-K, 2026-02-06, Page 1]
+- **AWS:** $128,725 million (18% of consolidated sales) [AMZN, 10-K, 2026-02-06, Page 1]",0.833,0.714,0.769,6,5,1.0,1.0,"# Amazon Revenue by Segment - FY 2023
+
+Based on Amazon's 2023 Annual Report (10-K filing), here's the revenue breakdown by segment:
+
+## Total Net Revenue: $574.8 billion
+
+### By Segment:
+
+1. **North America** - $315.9 billion (55%)
+   - Includes e-commerce and physical stores in the U.S., Canada, and Mexico
+
+2. **International** - $126.4 billion (22%)
+   - E-commerce and physical stores outside North America
+
+3. **AWS (Amazon Web Services)** - $80.1 billion (14%)
+   - Cloud computing and related services
+
+4. **Other** - $52.4 billion (9%)
+   - Primarily advertising services, though Amazon doesn't separately itemize this segment in their official reporting structure
+
+### Key Notes:
+
+- **Operating Income by Segment:**
+  - North America: $14.7 billion
+  - International: -$2.8 billion (operating loss)
+  - AWS: $22.8 billion (highest margin at ~28%)
+
+- AWS remains the most profitable segment despite being the smallest by revenue
+- The International segment continued to operate at a loss, reflecting heavy investment in emerging markets
+
+Would you like more details on any specific segment or financial metrics?",0.2
+M02,medium,How has Apple's gross margin trended over the past 3 fiscal years?,"# Apple's Gross Margin Trend (2023-2025)
+
+## Total Gross Margin
+
+Apple's total gross margin has shown consistent growth over the three-year period:
+
+- **2023:** $169,148 million with a gross margin percentage of 44.1% [AAPL, 10-K, 2025-10-31, Page 1]
+- **2024:** $180,683 million with a gross margin percentage of 46.2% [AAPL, 10-K, 2025-10-31, Page 1]
+- **2025:** $195,201 million with a gross margin percentage of 46.9% [AAPL, 10-K, 2025-10-31, Page 1]
+
+This represents an increase of $26,053 million (15.4%) from 2023 to 2025, with gross margin percentage improving by 280 basis points.
+
+## Breakdown by Segment
+
+**Products Gross Margin:**
+- 2023: $108,803 million (36.5%)
+- 2024: $109,633 million (37.2%)
+- 2025: $112,887 million (36.8%) [AAPL, 10-K, 2025-10-31, Page 1]
+
+**Services Gross Margin:**
+- 2023: $60,345 million (70.8%)
+- 2024: $71,050 million (73.9%)
+- 2025: $82,314 million (75.4%) [AAPL, 10-K, 2025-10-31, Page 1]
+
+Services has been the primary driver of gross margin expansion, with consistent year-over-year improvement in both absolute margin dollars and margin percentage. Products margins have remained relatively stable, though 2025 saw a slight decrease in margin percentage due to tariff costs, partially offset by favorable cost factors [AAPL, 10-K, 2025-10-31, Page 1].",0.167,1.0,0.286,6,1,1.0,0.9,"# Apple's Gross Margin Trend (Past 3 Fiscal Years)
+
+I don't have access to real-time data or current SEC filings, so I cannot provide Apple's most recent fiscal year figures with certainty. However, I can tell you what to look for:
+
+## Where to Find This Information:
+- **Apple's 10-K filing** (annual report) on the SEC's EDGAR database
+- Look for the **Consolidated Statements of Operations**
+- Calculate: (Gross Profit ÷ Net Sales) × 100
+
+## Recent Historical Context:
+Based on publicly available information through early 2024:
+- Apple's gross margins have typically ranged between **43-48%** in recent years
+- The company generally maintains strong and stable gross margins despite competitive pressures
+- Margins can fluctuate based on:
+  - Product mix (Services vs. Hardware)
+  - Supply chain costs
+  - Foreign exchange impacts
+  - Pricing strategies
+
+## To Get Precise Current Figures:
+I'd recommend checking:
+1. Apple's latest 10-K filing on sec.gov
+2. Apple's investor relations website (investor.apple.com)
+3. Recent earnings reports
+
+Would you like guidance on how to interpret gross margin trends, or do you have specific fiscal year figures you'd like me to help analyze?",0.2
+M03,medium,"What was Alphabet's revenue split between Google Search, YouTube, and Google Cloud in their latest annual report?","# Alphabet's Revenue Split (Year Ended December 31, 2025)
+
+Based on Alphabet's latest 10-K filing, here is the revenue breakdown:
+
+**Google Search & other:** $224,532 million [GOOG, 10-K, 2026-02-05, Page 1]
+
+**YouTube ads:** $40,367 million [GOOG, 10-K, 2026-02-05, Page 1]
+
+**Google Cloud:** $58,705 million [GOOG, 10-K, 2026-02-05, Page 1]
+
+**Combined total for these three segments:** $323,604 million
+
+For context, these three segments represented the majority of Alphabet's total revenues of $402,836 million in 2025 [GOOG, 10-K, 2026-02-05, Page 1], accounting for approximately 80% of total company revenues.",0.375,0.6,0.462,8,3,1.0,1.0,"# Alphabet Revenue Split (2023)
+
+Based on Alphabet's 2023 annual report (10-K filing), here's the revenue breakdown:
+
+## Google Services Segment
+- **Google Search**: ~$175.5 billion
+- **YouTube Ads**: ~$31.5 billion
+- **Google Network Members' revenue**: ~$31.3 billion
+
+## Google Cloud
+- **Google Cloud**: ~$33.1 billion
+
+## Other Bets
+- **Other Bets**: ~$1.0 billion
+
+## Total Alphabet Revenue
+- **Total**: ~$307.4 billion
+
+### Key Points:
+- Google Search remains by far the largest revenue driver
+- YouTube advertising is the second-largest component within Google Services
+- Google Cloud showed significant growth and is now a meaningful contributor (~11% of total revenue)
+- The three segments you asked about (Search, YouTube, and Cloud) represent approximately 84% of total Alphabet revenue
+
+*Note: Alphabet groups these under ""Google Services"" and ""Google Cloud"" reportable segments, so the exact line-item breakdown requires reviewing the detailed segment information in the 10-K filing.*",0.1
+M05,medium,How has NVIDIA's data center revenue grown over the past two years?,"# NVIDIA's Data Center Revenue Growth Over Two Years
+
+Based on the SEC filings, here is NVIDIA's data center revenue trajectory:
+
+## Annual Revenue
+
+- **Fiscal Year Ended Jan 28, 2024:** $47,525 million [NVDA, 10-K, 2026-02-25, Page 1]
+- **Fiscal Year Ended Jan 26, 2025:** $115,186 million [NVDA, 10-K, 2026-02-25, Page 1]
+- **Fiscal Year Ended Jan 25, 2026:** $193,737 million [NVDA, 10-K, 2026-02-25, Page 1]
+
+## Growth Rates
+
+- **FY 2024 to FY 2025:** 142% year-over-year increase ($115,186M vs. $47,525M)
+- **FY 2025 to FY 2026:** 68% year-over-year increase ($193,737M vs. $115,186M)
+- **Two-year total growth (FY 2024 to FY 2026):** 308% increase ($193,737M vs. $47,525M)
+
+NVIDIA's data center revenue has experienced explosive growth over the past two years, more than quadrupling from approximately $47.5 billion in fiscal 2024 to nearly $194 billion in fiscal 2026, driven by strong demand for AI and compute infrastructure.",0.667,0.8,0.727,6,4,1.0,0.8,"# NVIDIA Data Center Revenue Growth
+
+I don't have access to real-time data or specific SEC filing information from my training data cutoff. To get precise, current figures for NVIDIA's data center revenue growth over the past two years, I recommend:
+
+1. **SEC EDGAR Database**: Visit [sec.gov/edgar](https://www.sec.gov/edgar) and search for NVIDIA (ticker: NVDA)
+2. **Most Recent 10-K Filing**: Contains annual revenue breakdowns by segment
+3. **Quarterly 10-Q Filings**: Provide up-to-date quarterly performance
+
+## What to Look For:
+- Look for the ""Data Center"" segment under revenue breakdowns
+- Compare year-over-year growth rates
+- Check Management's Discussion & Analysis (MD&A) section for context
+
+**Note**: NVIDIA's data center business has been a major growth driver due to AI and GPU demand, but for exact figures from the past two fiscal years, you'll need to consult the actual filings directly.
+
+Would you like guidance on how to find and interpret these specific numbers in NVIDIA's SEC filings?",0.2
+M07,medium,What is Goldman Sachs's CET1 capital ratio and how does it compare to their target?,"Based on the provided filings, I can provide Goldman Sachs's CET1 capital ratios at various periods, but **the filings do not contain information about Goldman Sachs's CET1 capital ratio target**.
+
+Here are the CET1 capital ratios reported:
+
+**Consolidated (Advanced approach):**
+- As of September 2025: 15.1% [GS, 10-Q, 2025-10-31, Page 1]
+- As of June 2025: 15.3% [GS, 10-Q, 2025-08-01, Page 1]
+- As of March 2025: 15.5% [GS, 10-Q, 2025-05-02, Page 1]
+- As of December 2025: 15.1% [GS, 10-K, 2026-02-25, Page 1]
+- As of December 2024: 15.3% [GS, 10-Q, 2025-08-01, Page 1]
+
+**GS Bank USA (Advanced approach):**
+- As of December 2025: 20.9% [GS, 10-K, 2026-02-25, Page 1]
+- As of March 2025: 22.2% [GS, 10-Q, 2025-05-02, Page 1]
+- As of December 2024: 21.8% [GS, 10-Q, 2025-05-02, Page 1]
+
+To answer the comparison to target question, you would need to consult additional sections of the filings or investor presentations that discuss capital management objectives.",0.714,0.714,0.714,7,5,1.0,0.3,"I don't have access to real-time data or the ability to retrieve current SEC filings. To get Goldman Sachs's current CET1 (Common Equity Tier 1) capital ratio and target, I recommend:
+
+1. **Quarterly Reports (10-Q)** - Check the most recent quarterly filing on the SEC's EDGAR database
+2. **Annual Reports (10-K)** - Contains comprehensive capital ratio disclosures
+3. **Investor Relations Website** - Goldman Sachs publishes quarterly earnings releases with capital metrics
+4. **Quarterly Earnings Calls** - Management typically discusses capital ratios and targets
+
+Goldman Sachs regularly discloses CET1 ratios in the ""Capital Management"" or ""Regulatory Capital"" sections of their filings, along with their minimum required ratios and internal targets.
+
+If you have a specific quarter or year in mind, I'd be happy to help you interpret the figures if you can provide them, or discuss how to locate and analyze these metrics in their filings.",0.0
+M08,medium,What were the main drivers of Eli Lilly's revenue growth in their latest annual report?,"# Main Drivers of Eli Lilly's Revenue Growth (2025)
+
+Based on the latest 10-K filing, Eli Lilly's revenue growth was driven by the following factors:
+
+## Volume and Price Dynamics
+
+**Volume was the primary driver:** Volume growth contributed 50% to consolidated revenue growth, with particularly strong performance in the U.S. (53% volume growth) and solid growth outside the U.S. (46% volume growth) [LLY, 10-K, 2026-02-12, Page 1].
+
+**Price had a headwind:** Overall price decreased 6% on a consolidated basis, with a 10% price decline in the U.S. partially offset by flat pricing outside the U.S. [LLY, 10-K, 2026-02-12, Page 1].
+
+**Foreign exchange was a modest benefit:** Foreign exchange rates contributed 1% to consolidated growth [LLY, 10-K, 2026-02-12, Page 1].
+
+## Product-Level Drivers
+
+The volume growth was led by:
+
+- **Zepbound** (obesity/cardiometabolic): Generated $13,484M in U.S. revenue in 2025 vs. $4,926M in 2024 (173% increase), demonstrating exceptional launch momentum [LLY, 10-K, 2026-02-12, Page 1]
+
+- **Mounjaro** (diabetes/cardiometabolic): U.S. revenue grew from $8,950M to $13,651M (52% increase), with outside U.S. revenue growing from $2,590M to $9,315M (259% increase) [LLY, 10-K, 2026-02-12, Page 1]
+
+Overall, consolidated revenue grew 45% to $65,179M in 2025 from $45,043M in 2024 [LLY, 10-K, 2026-02-12, Page 1].",1.0,0.4,0.571,6,6,1.0,0.8,"I don't have access to Eli Lilly's latest annual report or real-time financial data. To provide you with accurate information about their revenue growth drivers, I would need you to either:
+
+1. **Share specific details** from their most recent 10-K filing (annual report to the SEC)
+2. **Specify the fiscal year** you're interested in
+3. **Provide excerpts** from their earnings reports or MD&A (Management's Discussion & Analysis) section
+
+However, I can tell you that **historically**, Eli Lilly's revenue growth has typically been driven by:
+
+- **Pharmaceutical products** (particularly diabetes, oncology, and immunology drugs)
+- **Tirzepatide** (Mounjaro/Zepbound) - a major recent growth driver for GLP-1 treatments
+- **Baricitinib** and other immunology products
+- **Donanemab** and other Alzheimer's disease treatments
+- **International market expansion**
+- **Pricing and volume increases** in key therapeutic areas
+
+If you have access to their latest 10-K filing or want to discuss specific data points from it, I'd be happy to help analyze the information you provide.",0.0
+M10,medium,What were the reported impairments or write-downs disclosed by Intel in their latest filings?,"# Intel's Reported Impairments and Write-Downs
+
+Based on Intel's latest SEC filings, the company disclosed substantial impairment and write-down charges:
+
+## 2024 Impairments
+
+**Property, Plant and Equipment Impairments:**
+- $2.3 billion in non-cash impairments for manufacturing assets that had not yet been placed in service, which exceeded projected capacity requirements [INTC, 10-K, 2026-01-23, Page 1]
+- $442 million in non-cash impairments of construction-in-progress assets associated with the decision to exit and outsource manufacturing capabilities for certain internal test hardware [INTC, 10-K, 2026-01-23, Page 1]
+- $103 million in non-cash impairments of operating leased assets and related leasehold improvements resulting from real estate consolidations and exits [INTC, 10-K, 2026-01-23, Page 1]
+- $992 million in accelerated depreciation charges [INTC, 10-K, 2026-01-23, Page 1]
+
+**Goodwill Impairments:**
+- $3.0 billion in non-cash goodwill impairment charges in 2024 [INTC, 10-K, 2026-01-23, Page 1]
+- $222 million goodwill impairment loss related to the Intel Foundry reporting unit in the first quarter of 2024 [INTC, 10-K, 2026-01-23, Page 1]
+
+**Intangible Asset Impairments:**
+- $108 million in non-cash impairment charges for certain acquired intangible assets [INTC, 10-K, 2026-01-23, Page 1]
+
+## 2025 Impairments
+
+**Property, Plant and Equipment Impairments:**
+- $494 million in non-cash impairments and $456 million in accelerated depreciation charges [INTC, 10-K, 2026-01-23, Page 1]
+- $474 million in other non-cash asset impairment charges related to the 2025 Restructuring Plan [INTC, 10-K, 2026-01-23, Page 1]
+
+## Accumulated Goodwill Impairment Loss
+
+As of December 27, 2025, Intel's accumulated goodwill impairment loss totaled $3.9 billion, comprised of: $2.6 billion associated with Mobileye, $415 million with CCG, $303 million with DCAI, and the remainder with other reporting units [INTC, 10-K, 2026-01-23, Page 1]",0.667,0.444,0.533,6,4,0.5,0.7,"# Intel Impairments and Write-downs
+
+I don't have access to real-time SEC filing data or Intel's most recent filings. To get the most current and accurate information about Intel's impairments and write-downs, I recommend:
+
+## Where to Find This Information:
+
+1. **SEC EDGAR Database** (sec.gov)
+   - Search for Intel Corporation (ticker: INTC)
+   - Review the most recent 10-K (annual) and 10-Q (quarterly) filings
+
+2. **Key Sections to Review:**
+   - Management's Discussion & Analysis (MD&A)
+   - Notes to Consolidated Financial Statements
+   - Look specifically for sections on ""Goodwill and Intangible Assets"" or ""Asset Impairment""
+
+3. **Intel's Investor Relations Website**
+   - intel.com/investor for official disclosures
+
+## Recent Context:
+
+Intel has disclosed significant impairments in recent years related to:
+- Manufacturing facility write-downs
+- Goodwill impairments
+- Intangible asset adjustments
+
+However, I cannot provide specific current figures without access to the latest filings.
+
+**Would you like guidance on how to interpret these sections once you locate the filings, or do you have a specific fiscal period in mind?**",0.0
+H01,hard,Compare the R&D spending as a percentage of revenue between Google and Microsoft in their latest filings.,"# R&D Spending as a Percentage of Revenue Comparison
+
+## Google
+Google's R&D expenses were $61,087 million in 2025, representing 15% of revenues [GOOG, 10-K, 2026-02-05, Page 1].
+
+## Microsoft
+Microsoft's R&D expenses were $32,488 million in 2025, representing 12% of revenues [MSFT, 10-K, 2025-07-30, Page 1].
+
+## Comparison
+Google allocates a higher percentage of revenue to R&D than Microsoft. Google spent 15% of revenues on R&D compared to Microsoft's 12%, a difference of 3 percentage points. In absolute dollar terms, Google's R&D spending ($61,087 million) was significantly higher than Microsoft's ($32,488 million), though this reflects differences in both their overall revenue scales and strategic R&D investment priorities.",0.5,1.0,0.667,12,6,1.0,0.9,"# R&D Spending Comparison: Google vs Microsoft
+
+I don't have access to real-time data or the ability to retrieve the latest SEC filings. My knowledge was last updated in April 2024, and financial figures change with each quarterly and annual report.
+
+However, I can provide the **general context** based on historical patterns:
+
+## Typical R&D as % of Revenue (approximate):
+- **Google (Alphabet)**: Usually ranges from **12-15%** of revenue
+- **Microsoft**: Usually ranges from **13-16%** of revenue
+
+## To Get Current Accurate Figures:
+
+1. **Visit SEC.gov** - Search for each company's latest 10-K (annual) or 10-Q (quarterly) filing
+2. **Look for**: Research and Development expenses in the ""Operating Expenses"" section
+3. **Calculate**: R&D Spending ÷ Total Revenue × 100
+
+**Key locations in filings:**
+- 10-K: Item 7 (Management's Discussion and Analysis)
+- Income Statement: ""Research and development"" line item
+
+If you provide me with specific figures from recent filings, I'd be happy to compare them precisely for you.",0.2
+H02,hard,Summarize how semiconductor companies are discussing AI-related demand in their latest earnings reports.,"# AI-Related Demand in Semiconductor Company Earnings Reports
+
+Based on the latest SEC filings, semiconductor companies are discussing AI-related demand with cautious optimism, acknowledging both strong current momentum and significant uncertainties:
+
+## Strong Current Demand
+
+**NVIDIA** reports exceptional AI-driven growth. In Q3 FY2026, Data Center revenue reached $51.2 billion, up 66% year-over-year and 25% sequentially, ""driven by three platform shifts – accelerated computing, powerful AI models, and agentic applications."" [NVDA, 10-Q, 2025-11-19, Page 1] The company notes that ""Blackwell Ultra is now our leading architecture across all customer categories while our prior Blackwell architecture saw continued strong demand."" [NVDA, 10-Q, 2025-11-19, Page 1]
+
+**Micron Technology** similarly emphasizes that ""AI-driven demand is accelerating and outpacing industry supply."" In Q1 FY2026, ""the AI-driven growth in the data center has accelerated demand for memory and storage, at a rate greater than our ability to increase supply."" [MU, 10-Q, 2025-12-18, Page 1]
+
+**AMD** reports that ""in our Data Center segment, we offer products that are optimized for generative AI applications and we have experienced significant demand for our AI accelerators."" [AMD, 10-Q, 2025-11-05, Page 1]
+
+## Major Uncertainties
+
+However, companies consistently emphasize uncertainty about the sustainability of AI demand:
+
+- **AMD** states: ""The demand for such products in part will depend on the extent to which our customers utilize generative AI solutions in a wide variety of applications as both the near-term and long-term trajectory of such generative AI solutions is unknown."" [AMD, 10-Q, 2025-11-05, Page 1]
+
+- **Micron** notes: ""Recent technologies, such as generative AI models have emerged, and while they have driven increased demand for HBM and other advanced products in the data center and other markets, the long-term trajectory is unknown and associated demand may fluctuate."" [MU, 10-Q, 2025-12-18, Page 1]
+
+- **Broadcom** warns that ""some of these AI customers may have constrained resources or capital and may be unable to pay for their required AI infrastructure and/or seek alternative financings or novel or deferred payment models from their vendors."" [AVGO, 10-Q, 2026-03-11, Page 1]
+
+## Supply Constraints
+
+Companies highlight that demand currently outpaces supply. Micron explains: ""This has led to decisions on supply allocation that may impact certain customers and end markets as the overall market demand for memory and storage exceeds overall industry supply."" [MU, 10-Q, 2025-12-18, Page 1]
+
+## Risk of Supply Oversupply
+
+There is also concern about future oversupply. Micron cautions: ""If demand for HBM weakens and suppliers shift capacity from HBM to conventional DRAM, this could result in a significant increase in conventional DRAM supply...An oversupplied DRAM market may lead to downward pressure on pricing, which could adversely impact our financial results."" [MU, 10-Q, 2025-12-18, Page 1]
+
+In summary, while semiconductor companies are experiencing strong AI-related revenue growth currently, they universally express uncertainty about the long-term sustainability of this demand and acknowledge risks from potential oversupply and customer affordability constraints.",0.233,0.269,0.25,30,7,0.2,0.9,"# Semiconductor Companies and AI Demand in Recent Earnings
+
+I don't have access to real-time earnings reports or specific recent filings. My knowledge was last updated in April 2024, so I cannot provide current earnings data from the latest reporting periods.
+
+However, I can share what semiconductor companies were generally discussing regarding AI demand **through early 2024**:
+
+## Key Themes Observed:
+
+**Strong AI Demand Signals:**
+- NVIDIA was experiencing exceptional demand for AI accelerators (H100, H200 GPUs)
+- Companies highlighted data center expansion as a primary growth driver
+- Training and inference workload growth were both mentioned
+
+**Broad Industry Impact:**
+- Chip designers and manufacturers noted increased AI server builds
+- Supply chain partners reported strong AI-related orders
+
+**Common Forward Guidance Elements:**
+- Expectations for sustained AI capex from hyperscalers
+- Uncertainty about sustainability and market saturation
+- Competition increasing in AI chip space
+
+## To Get Current Information:
+
+For the latest discussions, I recommend:
+1. **SEC EDGAR** - accessing 10-Q and 8-K filings directly
+2. **Company investor relations sites** - for earnings call transcripts
+3. **Recent earnings dates** - check filing dates for the most current data
+
+If you have specific recent filings or earnings call transcripts you'd like me to analyze, please share them and I can provide detailed, precise analysis with specific figures.",0.2
+H03,hard,How are companies in the financial sector discussing AI adoption in their latest filings?,"# AI Adoption Discussion in Financial Sector Filings
+
+Based on the provided SEC filings, companies in the financial sector discuss AI adoption with significant emphasis on both opportunities and risks:
+
+## JPMorganChase's Perspective
+
+JPMorganChase identifies AI as a critical competitive and operational issue. The firm acknowledges that competitors deploying AI more quickly or effectively could gain advantages in ""cost efficiency, client and customer experience, or product innovation, which could result in a loss of market share to competitors"" [JPM, 10-K, 2026-02-13, Page 1]. 
+
+The company also highlights workforce planning challenges, noting that over-reliance on AI could cause ""shortages in qualified staff due to reduced hiring or retention of employees, or could hinder the development or enhancement of important skills among its employees, including critical thinking, problem-solving, judgment, creativity and adaptability"" [JPM, 10-K, 2026-02-13, Page 1].
+
+## Risk-Focused Discussions
+
+Multiple firms emphasize AI-related risks. JPMorganChase warns of ""AI system failures, inappropriate use of AI systems, lack of transparency in AI systems, or inaccurate or biased output from AI systems resulting from rapid deployment, insufficient testing, erroneous data, ineffective model design or insufficient controls, which could disrupt operations, cause erroneous transactions, compromise data privacy, infringe on intellectual property, harm clients and customers"" [JPM, 10-K, 2026-02-13, Page 1].
+
+Goldman Sachs similarly notes that AI models ""may produce output or take action that is incorrect, that result in the release of private, confidential or proprietary information, that reflect biases included in the data on which they are trained, infringe on the intellectual property rights of others"" [GS, 10-K, 2026-02-25, Page 1].
+
+## Investment and Implementation Focus
+
+American Express discusses AI as a capability requiring strategic investment, stating their ""ability to successfully invest in, benefit from and expand the use of technological developments, digital payments, servicing, travel & dining solutions, generative AI and other technological capabilities, which will depend in part on our success in evolving our products and processes for the digital environment and agentic commerce"" [AXP, 10-K, 2026-02-06, Page 1].
+
+The company also addresses the transformative potential and risks: ""The use of AI & ML technologies, including generative AI and agentic commerce, has increased rapidly and may be transformative to the payments industry, heightening the risks described herein and others in ways that may be unpredictable and disadvantageous to us"" [AXP, 10-K, 2026-02-06, Page 1].
+
+## Summary
+
+Financial sector companies frame AI adoption as both a competitive necessity and a significant source of operational, compliance, and strategic risk requiring careful governance and implementation.",0.267,1.0,0.421,30,8,0.8,0.7,"# AI Adoption in Financial Sector SEC Filings
+
+I should clarify an important limitation: **I don't have access to real-time SEC filings or databases**, and my training data has a cutoff date. I cannot review specific current filings to provide you with precise, verified information about how financial companies are discussing AI adoption right now.
+
+However, I can share what has been common themes in financial sector SEC filings regarding AI:
+
+## Typical Discussion Areas
+
+**Risk Disclosures:**
+- Regulatory uncertainty around AI use
+- Model validation and accuracy concerns
+- Cybersecurity and adversarial attack risks
+- Talent competition for AI expertise
+
+**Opportunity Areas:**
+- Algorithmic trading and investment management
+- Customer service automation (chatbots)
+- Fraud detection and compliance monitoring
+- Credit underwriting and risk assessment
+
+**Compliance Topics:**
+- Fair lending and bias mitigation
+- Model explainability requirements
+- Regulatory sandbox participation
+
+## How to Get Current Information
+
+To find **actual current discussions** of AI in financial sector filings, I recommend:
+
+1. **SEC EDGAR** (sec.gov) - Search 10-Ks and 10-Qs
+2. **Search terms**: ""artificial intelligence,"" ""machine learning,"" ""AI,"" ""algorithmic""
+3. **Key sections**: Risk Factors, Management's Discussion & Analysis (MD&A), Business Description
+
+Would you like guidance on how to search these documents effectively, or do you have specific companies you'd like me to discuss based on information you can verify?",0.2
+H04,hard,"Among Nvidia, Microsoft, Apple, Google, Tesla, and Walmart — which shows the strongest financial health based on their latest filings?","# Financial Health Assessment
+
+Based on the latest SEC filings provided, here's an analysis of each company:
+
+## **NVIDIA** (Strongest Position)
+- **Total Assets**: $161.1 billion [NVDA, 10-Q, 2025-11-19, Page 1]
+- **Total Liabilities**: $42.3 billion [NVDA, 10-Q, 2025-11-19, Page 1]
+- **Shareholders' Equity**: $118.9 billion [NVDA, 10-Q, 2025-11-19, Page 1]
+- **Debt Position**: Short-term debt of $1.0 billion, long-term debt of $7.5 billion [NVDA, 10-Q, 2025-11-19, Page 1]
+- **Key Metrics**: Revenue growth of 65% year-over-year; net income of $120.1 billion (fiscal 2026); net margin of 55.6% [NVDA, 10-K, 2026-02-25, Page 1]
+
+## **Microsoft**
+- **Cash & Investments**: $89.5 billion in cash, cash equivalents, and short-term investments as of December 31, 2025 [MSFT, 10-Q, 2026-01-28, Page 1]
+- **Key Metrics**: Revenue of $281.7 billion; operating income of $128.5 billion; diluted EPS of $13.64 (fiscal 2025) [MSFT, 10-K, 2025-07-30, Page 1]
+
+## **Google**
+- **Key Metrics**: Revenue of $402.8 billion; net income of $132.2 billion; operating margin of 32% (fiscal 2025) [GOOG, 10-K, 2026-02-05, Page 1]
+- **Growth**: Revenue increased 15%; net income increased 32% year-over-year [GOOG, 10-K, 2026-02-05, Page 1]
+
+## **Walmart**
+- **Cash Position**: $10.7 billion (as of January 31, 2026) [WMT, 10-K, 2026-03-13, Page 1]
+- **Operating Cash Flow**: $41.6 billion (fiscal 2026) [WMT, 10-K, 2026-03-13, Page 1]
+- **Free Cash Flow**: $14.9 billion (fiscal 2026) [WMT, 10-K, 2026-03-13, Page 1]
+
+## **Tesla & Apple**
+The provided filings contain insufficient balance sheet data to assess their complete financial positions comprehensively.
+
+---
+
+## **Conclusion**
+
+**NVIDIA demonstrates the strongest financial health** among those with complete data, evidenced by:
+- Exceptional profitability (55.6% net margin)
+- Rapid revenue growth (65% YoY)
+- Minimal leverage (low debt-to-equity ratio)
+- Strong equity position ($118.9 billion)
+
+**Microsoft and Google** follow closely with massive cash positions and strong operational metrics. **Walmart** shows solid cash generation capability, though its working capital operates at a deficit by design.",0.1,0.25,0.143,30,3,0.2,0.3,"# Financial Health Analysis: Recent Filings
+
+Based on latest available filings, here's how these companies compare on key metrics:
+
+## Strongest Overall: **Microsoft**
+
+**Microsoft** demonstrates the most robust financial position:
+- **Operating margin**: ~50% (exceptionally high)
+- **Free cash flow**: $80+ billion annually
+- **Debt-to-equity**: Conservative, well-managed
+- **Current ratio**: Strong liquidity position
+- **Growth momentum**: AI investments driving revenue expansion
+
+## Other Notable Positions:
+
+**Apple**
+- Massive cash reserves (~$29B net cash position)
+- Strong FCF (~$110B+)
+- Slight concern: iPhone revenue concentration risk
+
+**Google (Alphabet)**
+- Excellent margins (~40% operating)
+- Strong FCF generation
+- Diversified revenue streams
+
+**Nvidia**
+- Exceptional growth and margins
+- **Caveat**: Heavily dependent on AI/data center cycle; elevated valuations create concentration risk
+
+**Tesla**
+- Declining margins recently (pressured by competition)
+- Positive FCF but weakening
+- Higher leverage relative to earnings
+
+**Walmart**
+- Solid, stable performer
+- Lower margins (~5-6% operating)
+- Consistent cash generation
+- Less growth momentum than tech peers
+
+## Bottom Line:
+**Microsoft** edges others due to its combination of: sustainable high margins, robust FCF, disciplined balance sheet, and diversified revenue (cloud, software, gaming, AI services). It balances growth with financial stability better than its peers.
+
+*Note: Financial metrics shift quarterly—consult latest 10-K/10-Q filings for current data.*",0.7
+H05,hard,"Compare cloud segment revenue growth rates: Amazon AWS, Microsoft Intelligent Cloud, and Google Cloud over the last reported year.","# Cloud Segment Revenue Growth Rates Comparison
+
+## Amazon AWS
+AWS revenue grew from $107.556 billion (2024) to $128.725 billion (2025), representing a **19.7% growth rate** [AMZN, 10-K, 2026-02-06, Page 1].
+
+## Microsoft Intelligent Cloud
+Intelligent Cloud revenue grew from $87.464 billion (fiscal year 2024) to $106.265 billion (fiscal year 2025), representing a **21.5% growth rate** [MSFT, 10-K, 2025-07-30, Page 1].
+
+## Google Cloud
+Google Cloud revenue grew from $43.229 billion (2024) to $58.705 billion (2025), representing a **35.8% growth rate** [GOOG, 10-K, 2026-02-05, Page 1].
+
+## Summary
+**Google Cloud demonstrated the strongest growth rate at 35.8%, followed by Microsoft Intelligent Cloud at 21.5%, and Amazon AWS at 19.7%** over the most recently reported year. Google Cloud's significantly higher growth rate reflects its rapid expansion in cloud infrastructure services, though it remains smaller in absolute revenue compared to AWS and Microsoft's cloud offerings.",0.833,0.6,0.698,18,15,0.0,0.3,"# Cloud Segment Revenue Growth Comparison
+
+Based on the most recent annual filings (FY 2023):
+
+## **Amazon AWS**
+- **FY 2023 Revenue**: $80.10 billion
+- **FY 2022 Revenue**: $62.22 billion
+- **Growth Rate**: **28.7%** YoY
+
+## **Microsoft Intelligent Cloud**
+- **FY 2023 Revenue**: $72.89 billion
+- **FY 2022 Revenue**: $67.04 billion
+- **Growth Rate**: **8.7%** YoY
+
+## **Google Cloud**
+- **FY 2023 Revenue**: $33.10 billion
+- **FY 2022 Revenue**: $26.29 billion
+- **Growth Rate**: **25.9%** YoY
+
+## **Key Takeaways**
+
+1. **AWS** leads in absolute revenue and growth acceleration, with nearly 29% growth despite being the largest player
+2. **Google Cloud** shows strong momentum at nearly 26% growth, approaching closer to AWS in expansion rate
+3. **Microsoft** shows more modest growth at 8.7%, though Intelligent Cloud includes Azure, Server products, and other services
+
+AWS maintains market dominance with $80B+ in revenue, while Google Cloud is rapidly expanding and closing the gap with strong growth trajectory.
+
+*Note: These figures reflect each company's fiscal 2023 reporting (calendar years ending late 2023). Verify current filings for the latest results.*",0.1
+H06,hard,What are the most significant legal or regulatory risks disclosed across the big tech companies in their latest 10-K filings?,"# Most Significant Legal and Regulatory Risks Across Big Tech Companies
+
+Based on the latest 10-K filings, the most significant legal and regulatory risks disclosed across major tech companies cluster around several key areas:
+
+## 1. **Competition and Antitrust Enforcement**
+
+All major tech companies face intense antitrust scrutiny globally:
+
+- **Apple** is subject to civil antitrust lawsuits alleging monopolization in smartphone markets and faces investigations in Europe and other jurisdictions relating to App Store terms and conditions [AAPL, 10-K, 2025-10-31, Page 1]
+
+- **Google** faces competition enforcement actions and may continue to be subject to claims, lawsuits, regulatory inquiries, and investigations including competition matters that could harm business, reputation, and financial condition [GOOG, 10-K, 2026-02-05, Page 1]
+
+- **Microsoft** is subject to close scrutiny under U.S. and foreign competition laws, with governments actively enforcing and enacting new regulations to intervene in digital markets including the EU, UK, U.S., and China [MSFT, 10-K, 2025-07-30, Page 1]
+
+- **Amazon** faces multiple open investigations based on claims that aspects of its operations infringe competition-related or consumer protection rules, including aspects of Amazon's stores, fulfillment network, Prime, and certain AWS cloud services offerings [AMZN, 10-K, 2026-02-06, Page 1]
+
+## 2. **AI Regulatory and Compliance Risks**
+
+AI regulation emerges as a critical emerging risk across all companies:
+
+- **Apple** faces risks from new and complex technologies such as artificial intelligence features, which exacerbate risks of inadvertent disclosure of personal data [AAPL, 10-K, 2025-10-31, Page 1]
+
+- **Meta** is subject to risks related to harmful or illegal content, accuracy, misinformation and deepfakes, bias, discrimination, and toxicity from AI-related efforts, particularly those related to generative AI and superintelligence [META, 10-K, 2026-01-29, Page 1]. The company is also subject to evolving review and investigation by various governmental and regulatory agencies globally, with new legal frameworks on AI such as the EU AI Act still rapidly developing [META, 10-K, 2026-01-29, Page 1]
+
+- **Microsoft** faces emerging legislative and regulatory action in AI, which could increase costs or restrict opportunity, with the EU's AI Act potentially impacting provision or operation of its AI models and services in the European market [MSFT, 10-K, 2025-07-30, Page 1]
+
+- **NVIDIA** is subject to scrutiny regarding the responsible use of its technologies, including AI, which may result in reputational or financial harm and liability [NVDA, 10-K, 2026-02-25, Page 1]
+
+## 3. **Data Privacy and Security Compliance**
+
+Stringent data protection regulations create substantial compliance burdens:
+
+- **Apple** is subject to an increasing number of federal, state, and international laws relating to collection, use, retention, protection, and transfer of various types of personal data, with noncompliance resulting in significant penalties or legal liability [AAPL, 10-K, 2025-10-31, Page 1]. Additionally, the company faces specific obligations relating to collection and processing of data associated with minors, as well as information considered sensitive under applicable laws, such as health, biometric, financial, and payment card data [AAPL, 10-K, 2025-10-31, Page 1]
+
+- **Meta** is subject to complex and evolving U.S. and foreign laws and regulations regarding privacy, data use, data combination, and data protection, including the General Data Protection Regulation (GDPR), Digital Markets Act (DMA), Digital Services Act (DSA), and UK Online Safety Act (OSA) [META, 10-K, 2026-01-29, Page 1]. The company faces investigations and enforcement actions by privacy, consumer protection, and competition authorities [META, 10-K, 2026-01-29, Page 1]
+
+- **Microsoft** faces expanding laws requiring retrieval and production of customer data in response to compulsory legal demands from law enforcement and governmental authorities, with increasing volume and complexity [MSFT, 10-K, 2025-07-30, Page 1]
+
+- **NVIDIA** is subject to stringent and changing data privacy and security laws, with potential penalties under GDPR of up to €20 million or 4% of worldwide revenue, whichever is greater [NVDA, 10-K, 2026-02-25, Page 1]. The company may also face administrative fines under Europe's Network and Information Security Directive (NIS2) of up to 10 million Euros or 2% of total worldwide revenue [NVDA, 10-K, 2026-02-25, Page 1]
+
+## 4. **Content Moderation and Online Safety Obligations**
+
+Platforms face escalating content liability and safety requirements:
+
+- **Meta** faces legislation in Germany and India resulting in fines or penalties for failure to comply with content removal, law enforcement cooperation, and disclosure obligations, with numerous other countries implementing similar legislation [META, 10-K, 2026-01-29, Page 1]. The company is also subject to litigation and government inquiries relating to allegations that it has caused or contributed to various societal harms, including illegal activity with respect to drugs, fraud, deceptive activity, unlawful discrimination, and other harms [META, 10-K, 2026-01-29, Page 1]
+
+- **Apple** is subject to new and changing laws and regulations regarding online safety, including enhanced protections for minors and mandatory age verification requirements, which can increase regulatory risks by requiring complex compliance measures and significant modifications to products, services, and operations [AAPL, 10-K, 2025-10-31, Page 1]
+
+- **Microsoft** faces regulations and initiatives making platforms responsible for preventing or eliminating harmful content online, with focused attention on child safety [MSFT, 10-K, 2025-07-30, Page 1]
+
+## 5. **Digital Markets Regulation (DMA/DSA)**
+
+Companies face substantial compliance obligations from European digital regulation:
+
+- **Apple** has implemented significant changes to iOS, iPadOS, the App Store, and Safari in the EU to comply with the Digital Markets Act, including new business terms, alternative fee structures, alternative methods of distribution, and alternative payment processing [AAPL, 10-K, 2025-10-31, Page 1]. The DMA provides for significant fines and penalties for noncompliance [AAPL, 10-K, 2025-10-31, Page 1]
+
+- **Meta** has received preliminary findings from the Commission reflecting its preliminary view that the company has infringed DSA obligations related to notice and action mechanisms for illegal content reporting, content moderation decision appeals, and data access for researchers [META, 10-K, 2026-01-29, Page 1]
+
+## 6. **Export Controls and Trade Restrictions**
+
+Companies face constraints on product export and international operations:
+
+- **NVIDIA** is subject to complex laws and regulations affecting operations including import and export requirements and tariffs, with restrictions on the export of its products that may adversely impact its business [NVDA, 10-K, 2026-02-25, Page 1]
+
+- **Microsoft** notes that the EU's AI Act may increase costs or impact provision or operation of its AI models and services in the European market [MSFT, 10-K, 2025-07-30, Page 1]
+
+## 7. **Litigation and Legal Proceedings**
+
+All companies face substantial ongoing litigation exposure:
+
+- **Google** is subject to claims, lawsuits, regulatory and government inquiries and investigations, enforcement actions, and other forms of regulatory scrutiny including competition matters, intellectual property, data privacy and security, tax compliance, labor and employment, commercial disputes, and AI [GOOG, 10-K, 2026-02-05, Page 1]
+
+- **Amazon** is regularly subject to claims, litigation, reviews, investigations, and other proceedings involving patent and intellectual property matters, taxes, labor and employment, competition and antitrust, privacy, data use and protection, consumer protection, and AI technologies [AMZN, 10-K, 2026-02-06, Page 1]
+
+## Summary
+
+The most pervasive risks across all major tech companies involve **competition/antitrust enforcement**, **AI regulatory compliance**, **data privacy and security laws**, and **content moderation obligations**. These risks are increasingly global in scope, with particular regulatory intensity in Europe through mechanisms like the GDPR, DMA, and DSA. Companies face substantial potential fines, mandatory business practice changes, and operational restrictions.",0.6,0.545,0.571,30,18,0.0,0.7,"# Key Legal & Regulatory Risks in Big Tech 10-Ks
+
+## Antitrust & Competition
+- **Apple, Google, Meta, Amazon**: Face ongoing antitrust investigations globally (DOJ, FTC, EU, UK)
+- **Google**: Most exposed—investigations into search dominance, Play Store practices, ad tech
+- **Meta**: Regulatory scrutiny over market concentration in social media
+- **Amazon**: FTC challenges to AWS bundling practices; marketplace monopoly concerns
+
+## Data Privacy & Security
+- **All major players**: GDPR compliance costs and fines risk
+- **Meta**: Historically largest privacy exposure; ongoing GDPR investigations
+- **Google, Apple**: App Store data collection scrutiny
+- **TikTok**: Cross-company concern; potential U.S. ban or forced sale
+
+## Content Moderation & Liability
+- **Meta, Google, YouTube**: Section 230 reform risk; increasing government pressure on content policies
+- **TikTok**: Algorithmic transparency requirements and national security concerns
+- **Apple**: App review process legal challenges
+
+## International Trade & Geopolitics
+- **All**: China restrictions, export controls on semiconductors/AI technology
+- **Apple**: Supply chain concentration risks, manufacturing reliance on Taiwan/China
+- **Intel**: Licensing restrictions, CHIPS Act compliance obligations
+
+## AI Regulation
+- **Google, Meta, Microsoft, Apple**: Emerging EU AI Act compliance costs; potential restrictions on large model training
+- **Uncertain enforcement landscape** creates material disclosure challenges
+
+## Tax & Regulatory
+- **Global tax minimum (15%)**: OECD Base Erosion & Profit Shifting (BEPS) impacts
+- **State/local**: Sales tax, labor classification (gig economy) disputes
+
+**Most material currently**: Antitrust (structural business risk) and AI regulation (strategic uncertainty).",0.4
+H07,hard,Compare operating margins between Visa and Mastercard over the last two fiscal years.,"# Operating Margin Comparison: Visa vs. Mastercard
+
+## Visa Operating Margins
+
+**Fiscal Year 2025 (ended September 30, 2025):**
+Operating margin of 59.99% ($23,994 million operating income / $40,000 million net revenue) [V, 10-K, 2025-11-06, Page 1]
+
+**Fiscal Year 2024 (ended September 30, 2024):**
+Operating margin of 65.66% ($23,595 million operating income / $35,926 million net revenue) [V, 10-K, 2025-11-06, Page 1]
+
+## Mastercard Operating Margins
+
+**Fiscal Year 2025 (ended December 31, 2025):**
+Operating margin of 57.6% [MA, 10-K, 2026-02-11, Page 1]
+
+**Fiscal Year 2024 (ended December 31, 2024):**
+Operating margin of 55.3% [MA, 10-K, 2026-02-11, Page 1]
+
+## Summary
+
+| Company | FY 2025 | FY 2024 | Change |
+|---------|---------|---------|--------|
+| Visa | 59.99% | 65.66% | -5.67 ppt |
+| Mastercard | 57.6% | 55.3% | +2.3 ppt |
+
+**Key Observations:**
+- Visa maintains higher absolute operating margins than Mastercard in both years
+- Visa's margin contracted by approximately 5.67 percentage points year-over-year, primarily driven by a significant increase in litigation provisions ($2,562 million in 2025 vs. $462 million in 2024) [V, 10-K, 2025-11-06, Page 1]
+- Mastercard's margin expanded by 2.3 percentage points despite operating expense increases [MA, 10-K, 2026-02-11, Page 1]",0.5,0.6,0.545,12,6,0.2,0.9,"# Visa vs. Mastercard Operating Margins
+
+I don't have access to real-time data or the ability to retrieve current SEC filings. To provide you with accurate operating margin comparisons for the last two fiscal years, I would need to direct you to the most recent sources.
+
+## How to Find This Information
+
+**For the most accurate data, check:**
+
+1. **SEC EDGAR Database** (sec.gov)
+   - Visa: Search ticker ""V""
+   - Mastercard: Search ticker ""MA""
+   - Look for 10-K annual reports
+
+2. **Calculate Operating Margin:**
+   - Operating Income ÷ Total Revenue = Operating Margin %
+   - Find in the Consolidated Statements of Operations
+
+3. **Company Investor Relations Pages**
+   - Both firms publish earnings reports and financial summaries
+
+## What to Expect
+
+Historically, both companies have operated with:
+- **High operating margins** (typically 50%+) due to their network business models
+- **Similar profitability profiles** given comparable fee-based revenue structures
+- **Year-over-year variations** driven by operating expense growth and transaction volumes
+
+## Would You Like Help With:
+- Specific financial metrics if you provide the figures?
+- How to interpret operating margins once you locate the data?
+- A framework for comparing these two companies?
+
+Please share specific figures from their latest filings, and I can provide detailed analysis.",0.1
+H08,hard,How are energy companies XOM and CVX discussing the energy transition and capital allocation in their latest annual reports?,"# Energy Transition and Capital Allocation Discussion: XOM vs CVX
+
+## ExxonMobil (XOM)
+
+**Energy Transition Strategy:**
+ExxonMobil has established a comprehensive approach to the energy transition centered on technology development and emission reduction targets. The company announced ""its ambition to achieve net-zero Scope 1 and 2 greenhouse gas emissions in our operated assets by 2050, with advancements in technology and clear, consistent, stable, and effective government policies."" [XOM, 10-K, 2026-02-18, Page 1]
+
+More specifically, XOM has set near-term targets: ""By 2030, we plan to reduce emissions in our combined Permian operations by more than the equivalent of achieving net-zero Scope 1 and 2 emissions in our operated heritage ExxonMobil assets"" and plans to reach ""net-zero Scope 1 and 2 emissions in our integrated Permian Basin operated assets by 2035, including Pioneer assets acquired in 2024."" [XOM, 10-K, 2026-02-18, Page 1] The company expects ""20-30 percent reduction in corporate-wide greenhouse gas intensity"" compared to 2016 levels by 2030. [XOM, 10-K, 2026-02-18, Page 1]
+
+**Technology Focus:**
+XOM established a ""Low Carbon Solutions (LCS) business unit and is continuing efforts in our existing businesses to advance the development and deployment of these technologies and projects, including CCS, hydrogen and ammonia, lower-emission fuels, ProxximaTM resin systems, advanced energy-saving materials, low-carbon data centers, lithium, and other technologies."" [XOM, 10-K, 2026-02-18, Page 1]
+
+**Capital Allocation - 2025 Results:**
+XOM's cash capital expenditures totaled $28,997 million in 2025 (compared to $25,647 million in 2024), with operating cash flow of $51,970 million. [XOM, 10-K, 2026-02-18, Page 1]
+
+---
+
+## Chevron (CVX)
+
+**Energy Transition Strategy:**
+Chevron takes a more measured approach to the energy transition. The company ""supports a global approach to governments addressing climate change and continues to take actions to help lower the carbon intensity of its operations while continuing to meet the demand for energy."" [CVX, 10-K, 2026-02-24, Page 1]
+
+Chevron emphasizes that ""many published outlooks conclude that fossil fuels will remain a significant part of an energy system that increasingly incorporates lower carbon sources of supply for many years to come."" [CVX, 10-K, 2026-02-24, Page 1]
+
+**Policy Approach:**
+Chevron ""believes that broad, market-based mechanisms are the most efficient approach to addressing GHG emission reductions"" and has integrated ""climate change-related issues and the regulatory and other responses to these issues into its strategy and planning, capital investment reviews and risk management tools and processes."" [CVX, 10-K, 2026-02-24, Page 1]
+
+**Strategic Position:**
+CVX states that ""The company will continue to develop oil and gas resources to meet customers' and consumers' demand for energy. At the same time, Chevron believes that the future of energy is lower carbon."" [CVX, 10-K, 2026-02-24, Page 1]
+
+---
+
+## Comparison
+
+**Key Difference:** XOM presents more aggressive, quantified targets for decarbonization (net-zero 2050, 20-30% intensity reduction by 2030) and has created a dedicated business unit for lower-carbon solutions. CVX emphasizes maintaining flexibility in its portfolio while supporting fossil fuels as part of the long-term energy mix, relying on market-based mechanisms rather than specific emission reduction targets in the disclosed filings.",0.25,0.333,0.286,12,3,0.3,0.3,"# Energy Transition & Capital Allocation: XOM vs CVX
+
+I don't have access to real-time data or the ability to review specific document contents from 2024 annual reports. However, I can provide context on how these companies typically discuss these topics, noting that their strategies have been evolving:
+
+## General Strategic Patterns (as of my last update in April 2024):
+
+**ExxonMobil (XOM):**
+- Emphasizes ""low-carbon solutions"" including carbon capture, hydrogen, and biofuels
+- Maintains substantial oil/gas capital allocation while incrementally increasing low-carbon investments
+- Focuses on technology development and scale-up of existing energy infrastructure
+
+**Chevron (CVX):**
+- Positions transition strategy around ""affordable energy + lower emissions""
+- Has been more cautious on renewable investments relative to XOM
+- Emphasizes operational excellence and returns to shareholders in core business
+
+## For Current Information:
+
+To get precise figures and latest positioning, I recommend:
+
+1. **SEC EDGAR database** - Access 10-K filings directly (sec.gov)
+2. **Company investor relations websites** - XOM.com and CVX.com for latest reports
+3. **Specific sections to review:**
+   - Management's Discussion & Analysis (MD&A)
+   - Capital expenditure guidance
+   - Energy transition/sustainability sections
+
+Could you share specific metrics or comparisons you're most interested in? I can help contextualize what you find.",0.2
+H10,hard,"Give me an overview of recent performance of Palantir, including revenue growth, margins, and key business developments.","# Palantir Technologies (PLTR) - Recent Performance Overview
+
+## Revenue Growth
+
+Palantir has demonstrated strong revenue acceleration:
+
+**Full Year 2025:**
+- Total revenue reached $4,475,446 thousand, up 56% from $2,865,507 thousand in 2024 [PLTR, 10-K, 2026-02-17, Page 1]
+- Government revenue: $2,402,287 thousand (up 53% YoY from $1,569,605 thousand) [PLTR, 10-K, 2026-02-17, Page 1]
+- Commercial revenue: $2,073,159 thousand (up 60% YoY from $1,295,902 thousand) [PLTR, 10-K, 2026-02-17, Page 1]
+
+**Nine Months Ended September 30, 2025:**
+- Government revenue: $1,672,622 thousand vs. $1,114,481 thousand in 2024 [PLTR, 10-Q, 2025-11-04, Page 1]
+- Commercial revenue: $1,396,022 thousand vs. $923,507 thousand in 2024 [PLTR, 10-Q, 2025-11-04, Page 1]
+
+## Margin Performance
+
+**Contribution Margins (Full Year 2025):**
+- Government segment: 66% contribution margin (up from 60% in 2024) [PLTR, 10-K, 2026-02-17, Page 1]
+- Commercial segment: 66% contribution margin (up from 60% in 2024) [PLTR, 10-K, 2026-02-17, Page 1]
+- Overall: 66% total contribution margin (up from 60% in 2024) [PLTR, 10-K, 2026-02-17, Page 1]
+
+**Nine Months 2025:**
+- Government contribution margin remained at 64% (up from 60% in prior year) [PLTR, 10-Q, 2025-11-04, Page 1]
+- Commercial contribution margin: 64% (up from 60% in prior year) [PLTR, 10-Q, 2025-11-04, Page 1]
+
+## Summary
+
+Palantir is experiencing robust growth across both segments, with accelerating revenues (56% growth in 2025) and significant margin expansion of 600 basis points year-over-year at the full-year level.",1.0,0.462,0.632,6,6,1.0,0.7,"# Palantir Technologies (PLTR) - Recent Performance Overview
+
+## Financial Performance (Most Recent Reported Period)
+
+Based on Palantir's latest public filings:
+
+**Revenue Growth:**
+- Palantir has demonstrated strong revenue acceleration, particularly in 2023-2024
+- U.S. Government segment remains the largest revenue driver
+- Commercial segment has been experiencing accelerating growth, now representing a meaningful portion of total revenue
+- Year-over-year growth rates have consistently exceeded 20% in recent periods
+
+**Margins:**
+- **Gross Margins:** Generally in the 75-80% range, reflecting the software business model
+- **Operating Margins:** Have been improving significantly as the company scales, moving from negative to positive operating income in recent quarters
+- The company achieved GAAP profitability in 2023 for the first time
+- Adjusted operating margins show stronger improvement due to stock-based compensation adjustments
+
+## Key Business Developments
+
+1. **Commercial Segment Expansion:** Accelerating growth in private sector customers, addressing a larger addressable market
+
+2. **AI Integration:** Increased focus on AI capabilities embedded in Gotham and Apollo platforms
+
+3. **Government Demand:** Continued strong demand from U.S. federal agencies; recent wins and contract expansions
+
+4. **International Expansion:** Ongoing growth in international markets, particularly with allied governments
+
+5. **Profitability Achievement:** Reached GAAP profitability milestone, signaling operational maturity
+
+**Note:** For the most current figures, I'd recommend checking their latest 10-Q or 10-K filings on the SEC website, as my knowledge has a cutoff date.",0.2
