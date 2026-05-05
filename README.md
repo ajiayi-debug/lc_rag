@@ -88,7 +88,7 @@ voyage="pa-..."
 cohere="..."
 EOF
 
-# 3. Ingest PDFs (place them in sec_filings_pdf/<TICKER>/ first)
+# 3. Ingest PDFs (place them in sec_filings_pdf/<TICKER>/ first either by unzipping provided zip file or placing in root sec_fillings_pdf)
 uv run python -m ingestion.ingest
 
 # 4. Launch Streamlit UI
